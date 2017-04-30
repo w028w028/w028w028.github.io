@@ -2,58 +2,65 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>關於我</title>
+<title>About Me</title>
+<link href="jquery-mobile/jquery.mobile-1.3.0.min.css" rel="stylesheet" type="text/css">
+<script src="jquery-mobile/jquery-1.11.1.min.js"></script>
+<script src="jquery-mobile/jquery.mobile-1.3.0.min.js"></script>
 
-<link rel="stylesheet" href="themes/blue.min.css" />
-<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
-<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
-<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
 <script type="text/javascript">
-<!--
 
-alert("歡迎來認識我~~");
-
-//-->
 </script>
 
-<link href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" rel="stylesheet" type="text/css">
+<link href="css.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 <div data-role="page" id="page1">
+<header><font face="標楷體" color="#F7060A"><h1 align="center">自我介紹</h1></font></header>
 
-<div data-role="content">
-
-  <div align="center">
-  
-<table border="0" align="center">
-
-<tr>
-<td><br><img src="img/winnie3.jpg" width="300" height="400" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</td>
-<td><h1><font face="標楷體" color="#F7060A">&nbsp;自我介紹</font></h1>
-<font face="標楷體" size="+1"><br>
+<marquee scrolldelay="10" onMouseOver="this.stop()" onMouseOut="this.start()" direction="left" hspace="100" behavior="scroll" bgcolor="#4150F8" height="30px" style="border-radius:5px"><font face="標楷體" color="#FFFFFF" size="+2">歡迎來到我的網頁~~</font></marquee>
+  <table border="0" align="center">  
+  <tr>
+<td width="450">&nbsp;&nbsp;<img src="img/winnie3.jpg" width="300" height="400" alt="">&nbsp;&nbsp;</td>
+<td width="550"><font face="標楷體" color="#F7060A"><h2>基本資料</h2></font>
+<font face="標楷體" size="+1">
 <ul>
-<li>名字：楊婉伶<br></li>
-<li>生日：1996/02/03<br></li>
-<li>就讀：世新大學 資管系網科組 輔 觀光系餐旅組 三年級<br></li>
-<li>興趣：聽音樂、跳舞、調飲、實地參訪、參觀相關展覽<br></li>
-<li>優點：負責、堅持、好奇心強<br></li>
-<li>缺點：有些事情太執著、太容易糾結<br></li>
+<li>名字：楊婉伶</li>
+<li>生日：1996/02/03</li>
+<li>就讀：世新大學 資管系網科組 輔 觀光系餐旅組 三年級</li>
+<li>興趣：聽音樂、跳舞、調飲、實地參訪、參觀相關展覽</li>
+<li>優點：負責、堅持、好奇心強</li>
+<li>缺點：有些事情太執著、太容易糾結</li>
+</ul>
+</font>
+
+<font face="標楷體" color="#F7060A"><h2>能力、相關經歷</h2></font>
+<font face="標楷體" size="+1">
+<ul>
 <li>目前為止有使用過的相關應用程式語言：文書(PPT、Word、Excel、Access)、C#、HTML5、SQL Server<br></li>
 <li>經歷：資管系辦工讀(文書、活動協助、處理、系週會協助、學校資訊檢定試務人員、新生入學面試協助、系友回娘家活動協助)→系上人數約150人、王品牛排工讀、星巴克工讀<br></li>
-<li>成果：曾獲得2個學期成績優異捨我獎、Flash TQC證照<br></li>     
-<li>未來計畫：<br>
-完成大三開始製作畢業專題 → 預計會去參加Open Data創新應用競賽以及政府或資管盃比賽<br>
-目前也在計畫考取Linux、Microsoft MCSD、專案管理(PMA)等證照，並計畫考取資管研究所<br>未來資管所的部分，目前計畫想走網路相關或大數據資料分析調查</li>
+<li>成果：曾獲得2個學期成績優異捨我獎、Flash TQC證照<br></li>    
+</ul>
+</font>
+
+<font face="標楷體" color="#F7060A"><h2>未來發展</h2></font>
+<font face="標楷體" size="+1">
+<ul> 
+<li>完成大三開始製作畢業專題 → 預計會去參加Open Data創新應用競賽以及政府或資管盃比賽</li>
+<li>考取Linux、Microsoft MCSD、專案管理(PMA)等證照並考取資管研究所</li>
+<li>未來資管所的部分，目前傾向走網路相關或大數據資料分析調查</li>
 </ul>
 </font>
 </td>
 </tr>
-</table>
-  
-<table style="border:10px #FFD382 dashed;" cellpadding="10" border="1" bordercolor="#FFD382" align="center">
+</table> 
+<a href="#page" data-role="button" style="margin:5px; width:100px; align-content:center; text-decoration:none"><font color="#F33336">Next</font></a>
+</div>
+
+<div data-role="page" id="page">
+<header><font face="標楷體" color="#F7060A"><h1 align="center">微軟3Q</h1></font></header>
+<table style="border:10px #F6FF70 dashed;" cellpadding="10" border="1" bordercolor="#F6FF70" align="center">
 
 <tr>
 <td width="400"><font face="標楷體" color="#F8070B"><h1 align="center">Q1：Why Microsoft Student Partner？</h1></font>
@@ -98,8 +105,6 @@ alert("歡迎來認識我~~");
 </tr>
 
 </table>
-  </div>
-</div>
 </div>
 </body>
 </html>

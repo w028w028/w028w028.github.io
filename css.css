@@ -1,0 +1,8 @@
+@charset "utf-8";
+#page1 a {
+	position: absolute;
+	right: 250px;
+	height: 40px;
+	background-color: #FDFC4C;
+}
+
